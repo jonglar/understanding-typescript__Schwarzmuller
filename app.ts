@@ -8,6 +8,8 @@ function printResult(num: number): void {
 
 printResult(add(5, 12));
 
-let combineValues;
+let combineValues: (a: number, b: number) => void;
 combineValues = add;
 console.log(combineValues(10, 20));
+
+combineValues = console.log();
