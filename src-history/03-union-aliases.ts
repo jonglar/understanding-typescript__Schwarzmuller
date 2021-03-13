@@ -1,6 +1,6 @@
 enum ConvertAs { NUMBER, STRING };
 type Combinable = number | string;
-type User = {name: string, age: number};
+type User = {name: string, age: number};  // alias type
 
 function combine(
     input1: number | string, // union types
